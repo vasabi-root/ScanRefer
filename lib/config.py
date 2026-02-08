@@ -19,12 +19,13 @@ for _, path in CONF.PATH.items():
 
 # scannet data
 CONF.PATH.SCANNET_SCANS = os.path.join(CONF.PATH.SCANNET, "scans")
+CONF.PATH.SCANNET_IMAGES = os.path.join(CONF.PATH.SCANNET, "images")
 CONF.PATH.SCANNET_META = os.path.join(CONF.PATH.SCANNET, "meta_data")
 CONF.PATH.SCANNET_DATA = os.path.join(CONF.PATH.SCANNET, "scannet_data")
 
 # data
 CONF.SCANNET_DIR =  "/mnt/canis/Datasets/ScanNet/public/v2/scans" # TODO change this
-CONF.SCANNET_FRAMES_ROOT = "/home/davech2y/frames_square/" # TODO change this
+CONF.SCANNET_FRAMES_ROOT = CONF.PATH.SCANNET_IMAGES
 CONF.PROJECTION = "/home/davech2y/multiview_projection_scanrefer" # TODO change this
 CONF.ENET_FEATURES_ROOT = "/home/davech2y/enet_features" # TODO change this
 CONF.ENET_FEATURES_SUBROOT = os.path.join(CONF.ENET_FEATURES_ROOT, "{}") # scene_id
