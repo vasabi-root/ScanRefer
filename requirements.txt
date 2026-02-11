@@ -1,6 +1,6 @@
 plyfile
 opencv-python
-trimesh==2.35.39
+trimesh
 tensorboardX
 easydict
 tqdm
