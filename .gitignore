@@ -6,6 +6,7 @@ data/scannet/scannet_data
 data/scannet/scans
 data/scannet/images
 data/scannetv2_enet.pth
+data/scannet/scannetv2-labels.combined.tsv
 
 # cache
 data/scannet/__pycache__
